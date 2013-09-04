@@ -14,8 +14,17 @@
   ],
   "require": {
     "php": ">=5.3.0",
-    "myqee/installer": "~1.0"
+    "myqee/installer": "~3.0"
   },
+  "bin" : [
+    "bin/README.md",
+    "bin/merge-assets",
+    "bin/modify-file-type",
+    "bin/recreate-ide-helper-file",
+    "bin/svn-tools",
+    "bin/svn-tools.ini",
+    "bin/view-error500-log"
+  ],
   "autoload": {
     "psr-0": {"MyQEE\\Core": "src/"}
   }
