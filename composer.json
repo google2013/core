@@ -15,7 +15,7 @@
   "require": {
     "php": ">=5.3.0"
   },
-  "target-dir": 'core1',
+  "target-dir": "core1",
   "autoload": {
     "psr-0": {"MyQEE\\Core": "src/"}
   }
