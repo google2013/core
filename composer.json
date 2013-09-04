@@ -1,7 +1,7 @@
 {
-  "name": "myqee/core",
+  "name": "myqee/myqee",
   "description": "MyQEE Core for Composer",
-  "keywords": ["MyQEE", "framework", "MyQEE Core"],
+  "keywords": ["MyQEE", "framework"],
   "homepage": "http://www.myqee.com/",
   "type": "library",
   "license": "Apache-2.0",
@@ -15,6 +15,7 @@
   "require": {
     "php": ">=5.3.0"
   },
+  "target-dir": 'core1',
   "autoload": {
     "psr-0": {"MyQEE\\Core": "src/"}
   }
