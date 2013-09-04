@@ -17,13 +17,13 @@
     "myqee/installer": "~3.0"
   },
   "bin" : [
-    "bin/README.md",
-    "bin/merge-assets",
-    "bin/modify-file-type",
-    "bin/recreate-ide-helper-file",
-    "bin/svn-tools",
-    "bin/svn-tools.ini",
-    "bin/view-error500-log"
+    "./core/bin/README.md",
+    "./core/bin/merge-assets",
+    "./core/bin/modify-file-type",
+    "./core/bin/recreate-ide-helper-file",
+    "./core/bin/svn-tools",
+    "./core/bin/svn-tools.ini",
+    "./core/bin/view-error500-log"
   ],
   "autoload": {
     "psr-0": {"MyQEE\\Core": "src/"}
